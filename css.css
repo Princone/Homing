@@ -12,7 +12,6 @@ body, html {
     padding: 5px;
     box-sizing: border-box;
 }
-
 .search-bar {
     width: 100%;
     padding: 10px;
@@ -21,13 +20,28 @@ body, html {
     font-size: 16px;
     box-sizing: border-box;
 }
+#title{
+    padding: 5px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
 
 .segment {
     background-color: #f1f1f1;
     padding: 50px;
     margin-bottom: 10px;
     border-radius: 5px;
+      font-size: 0.5rem;
+  }
+
+#matter{
+     display: flex;
+    justify-content: start;
+    align-items: center;
 }
+
+
 
 .navbar {
     position: fixed;
