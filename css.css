@@ -12,13 +12,40 @@ body, html {
     padding: 5px;
     box-sizing: border-box;
 }
+.seg img{
+      border-radius: 50%;
+      border-color: black;
+      border: 5px;
+      padding-left: 5px;
+      padding-right: 5px;
+}
+.seg{
+      width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    box-sizing: border-box;
+    flex-direction: row-reverse;
+      justify-content: right;
+    align-items: start;
+    font-size: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row-reverse;
+
+
+}
 .search-bar {
     width: 100%;
     padding: 10px;
     border-radius: 25px;
-    margin-bottom: 20px;
+
+    justify-content: right;
+    align-items: start;
     font-size: 16px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: row-reverse;
 }
 #title{
     padding: 5px;
@@ -28,11 +55,12 @@ body, html {
 }
 
 .segment {
+
     background-color: #f1f1f1;
     padding: 50px;
     margin-bottom: 10px;
     border-radius: 5px;
-      font-size: 0.8rem;
+      font-size: 0.5rem;
   }
 
 #matter{
